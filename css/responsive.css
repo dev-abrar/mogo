@@ -1,0 +1,741 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .banner_text h3 {
+        font-size: 72px;
+    }
+
+    .banner_text h1 {
+        font-size: 100px;
+    }
+
+    .slider_text {
+        padding-left: 60px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_text h3 {
+        font-size: 45px;
+    }
+
+    .banner_text h1 {
+        font-size: 60px;
+    }
+
+    /* ============== banner area end ========= */
+
+    /* ============== service area start ========= */
+    .heading h2 {
+        font-size: 28px;
+        margin-top: 5px;
+    }
+
+    /* ============== service area end ========= */
+
+    /* ========= slider area start ========== */
+    .slider_text {
+        padding-left: 60px;
+    }
+
+    .left_arrow {
+        padding-bottom: 40px;
+    }
+
+    .right_arrow {
+        padding-bottom: 40px;
+    }
+
+    form {
+        margin-top: 40px;
+    }
+
+    /* ========= slider area end ========== */
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* =========== navbar area start ============ */
+
+    .offcanvas-body {
+        background: #ff9e9e;
+    }
+
+    .offcanvas-header {
+        background: #ff9e9e;
+    }
+
+    .navbar-toggler:focus {
+        -webkit-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+        -webkit-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000;
+    }
+
+    /* =========== navbar area end ============ */
+
+    /* =========== banner area start ============ */
+    .banner_text {
+        margin-top: 5px;
+    }
+
+    .banner_text h3 {
+        font-size: 50px;
+    }
+
+    .banner_text h1 {
+        font-size: 60px;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .banner_text h1::after {
+        display: none;
+    }
+
+    .banner_text a {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 5px 18px;
+        border: 2px solid #fff;
+        margin-top: 20px;
+    }
+
+    /* =========== banner area end ============ */
+
+    /* =========== about area start ============ */
+    #about {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .heading h3 {
+        font-size: 25px;
+    }
+
+    .heading h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .heading h2::after {
+        bottom: -20px;
+    }
+
+    .heading p {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .about_row {
+        margin-top: 45px;
+    }
+
+    /* =========== about area end ============ */
+
+    /* ============== counter area start ========== */
+    .count {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        border-left: 0;
+    }
+
+    .pink {
+        padding-bottom: 30px;
+        border-right: 0;
+    }
+
+    /* ============== counter area end ========== */
+
+    /* ============== service area start ========== */
+    .ser_text {
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .ser_text h4 {
+        font-size: 16px;
+    }
+
+    .ser_text p {
+        margin-top: 5px;
+    }
+
+    #service {
+        padding: 60px 0 65px;
+    }
+
+    .ser_row .row .col-lg-4:nth-child(4),
+    .ser_row .row .col-lg-4:nth-child(5),
+    .ser_row .row .col-lg-4:nth-child(6) {
+        margin-top: 0;
+    }
+
+    .ser_row {
+        margin-top: 70px;
+    }
+
+    /* ============== service area end ========== */
+
+    /* ============== slider area start ========== */
+    .team_icon ul li a i {
+        font-size: 22px;
+    }
+
+    .team_icon ul li a {
+        padding: 8px 15px;
+    }
+
+    .slider_text {
+        padding-left: 60px;
+    }
+
+    .slider_text p {
+        font-size: 18px;
+    }
+
+    /* ============== slider area end ========== */
+
+    /* ============== footer area start ========== */
+    form {
+        margin-top: 40px;
+    }
+
+    .f_follo {
+        padding-bottom: 10px;
+    }
+
+    .f_head h3 {
+        margin-top: 40px;
+    }
+
+    /* ============== footer area end ========== */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* =========== navbar area start ============ */
+    .navbar-brand {
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .navbar-toggler:focus {
+        -webkit-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .offcanvas-body {
+        background: #ff9e9e;
+    }
+
+    .offcanvas-header {
+        background: #ff9e9e;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+        -webkit-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .navbar-toggler {
+        -webkit-transform: scale(.8);
+        -ms-transform: scale(.8);
+        transform: scale(.8);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000;
+    }
+
+    /* =========== navbar area end ============ */
+
+    /* =========== banner area start ============ */
+    .banner_text {
+        margin-top: 5px;
+    }
+
+    .banner_text h3 {
+        font-size: 40px;
+    }
+
+    .banner_text h1 {
+        font-size: 45px;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .banner_text h1::after {
+        display: none;
+    }
+
+    .banner_text a {
+        font-size: 16px;
+        font-weight: 700;
+        padding: 5px 18px;
+        border: 2px solid #fff;
+        margin-top: 20px;
+    }
+
+    /* =========== banner area end ============ */
+
+    /* =========== about area start ============ */
+    #about {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .heading h3 {
+        font-size: 25px;
+    }
+
+    .heading h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .heading h2::after {
+        bottom: -20px;
+    }
+
+    .heading p {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .about_row {
+        margin-top: 45px;
+    }
+
+    /* =========== about area end ============ */
+
+    /* ============== counter area start ========== */
+    .count {
+        padding-top: 40px;
+        padding-bottom: 0;
+        border-left: 0;
+    }
+
+    .pink {
+        padding-bottom: 40px;
+        border-right: 0;
+    }
+
+    /* ============== counter area end ========== */
+
+    /* ============== service area start ========== */
+    .ser_text {
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .ser_text h4 {
+        font-size: 16px;
+    }
+
+    .ser_text p {
+        padding: 0 60px;
+        margin-top: 5px;
+    }
+
+    #service {
+        padding: 60px 0 65px;
+    }
+
+    .ser_row .row .col-lg-4:nth-child(4),
+    .ser_row .row .col-lg-4:nth-child(5),
+    .ser_row .row .col-lg-4:nth-child(6) {
+        margin-top: 0;
+    }
+
+    .ser_row {
+        margin-top: 70px;
+    }
+
+    /* ============== service area end ========== */
+
+    /* ============== slider area start ========== */
+    .slick-slide img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .slider_text {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .slider_text p {
+        font-size: 18px;
+    }
+
+    .team_icon ul li a i {
+        font-size: 22px;
+    }
+
+    .team_icon ul li a {
+        padding: 8px 15px;
+    }
+
+    /* ============== slider area end ========== */
+
+    /* ============== footer area start ========== */
+    form {
+        margin-top: 40px;
+    }
+
+
+
+    .f_follo {
+        padding-bottom: 10px;
+    }
+
+    .f_head h3 {
+        margin-top: 40px;
+    }
+
+    /* ============== footer area end ========== */
+
+    .bt_top {
+        width: 0px;
+    }
+}
+
+@media (max-width: 575.99px) {
+
+    /* =========== navbar area start ============ */
+
+    .navbar-brand {
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .navbar-toggler:focus {
+        -webkit-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .offcanvas-body {
+        background: #ff9e9e;
+    }
+
+    .offcanvas-header {
+        background: #ff9e9e;
+    }
+
+    .btn-primary:hover {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+        -webkit-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .navbar-toggler {
+        -webkit-transform: scale(.8);
+        -ms-transform: scale(.8);
+        transform: scale(.8);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #000;
+    }
+
+    /* =========== navbar area end ============ */
+
+    /* =========== banner area start ============ */
+    .banner_text {
+        margin-top: 10px;
+    }
+
+    .banner_text h3 {
+        font-size: 22px;
+    }
+
+    .banner_text h1 {
+        font-size: 25px;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .banner_text h1::after {
+        display: none;
+    }
+
+    .banner_text a {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 2px 15px;
+        border: 2px solid #fff;
+        margin-top: 5px;
+    }
+
+    /* =========== banner area end ============ */
+
+    /* =========== about area start ============ */
+    #about {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .heading h3 {
+        font-size: 22px;
+    }
+
+    .heading h2 {
+        font-size: 24px;
+    }
+
+    .heading h2::after {
+        bottom: -20px;
+    }
+
+    .heading p {
+        font-size: 13px;
+        margin-top: 50px;
+    }
+
+    .about_row {
+        margin-top: 45px;
+    }
+
+    /* =========== about area end ============ */
+
+    /* =========== counter area start ============ */
+    .count {
+        padding-top: 40px;
+        padding-bottom: 0;
+        border-left: 0;
+    }
+
+    .pink {
+        padding-bottom: 40px;
+        border-right: 0;
+    }
+
+    #team {
+        padding: 80px 0 10px;
+    }
+
+    .team_text {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    /* =========== counter area end ============ */
+
+    /* =========== service area start ============ */
+    .ser_text {
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    #service {
+        padding: 60px 0 65px;
+    }
+
+    .ser_row .row .col-lg-4:nth-child(4),
+    .ser_row .row .col-lg-4:nth-child(5),
+    .ser_row .row .col-lg-4:nth-child(6) {
+        margin-top: 0;
+    }
+
+    .ser_row {
+        margin-top: 70px;
+    }
+
+    /* =========== service area end ============ */
+
+    /* =========== slider area start ============ */
+    .slick-slide img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .slider_text {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .slider_text p {
+        font-size: 15px;
+    }
+
+    .work_row {
+        margin-top: 65px;
+    }
+
+
+    /* =========== slider area end ============ */
+
+    /* =========== footer area start ============ */
+    .foot_l .p a i {
+        font-size: 13px;
+    }
+
+    .f_follo {
+        padding-bottom: 10px;
+    }
+
+    .foot_l .p a {
+        margin-left: 10px;
+    }
+
+    form {
+        margin-top: 40px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .btnn {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .f_head h3 {
+        margin-top: 35px;
+    }
+
+    .f_text h5 {
+        margin-top: 10px;
+    }
+
+    .f_text {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    /* =========== footer area end ============ */
+    .fa-angle-up {
+        display: none;
+    }
+
+    .bt_top {
+        width: 0px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 575.99px) {
+    .banner_text h3 {
+        font-size: 30px;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+        display: block;
+    }
+
+    .banner_text a {
+        font-size: 16px;
+        padding: 3px 20px;
+        border: 2px solid #fff;
+        margin-top: 6px;
+    }
+
+    .ser_text p {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 575.99px) {
+    .team_icon ul li a i {
+        font-size: 18px;
+    }
+
+    .team_icon ul li a {
+        padding: 5px 12px;
+    }
+}
